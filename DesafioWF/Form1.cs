@@ -87,5 +87,10 @@ namespace DesafioWF
                 textBox1Dados.AppendText($"{alunoB.Nome} : {alunoB.Curso} {System.Environment.NewLine}");
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

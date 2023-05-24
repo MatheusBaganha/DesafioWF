@@ -64,7 +64,8 @@
             Controls.Add(textBox1Dados);
             Controls.Add(button1Extrair);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Extração de Dados de Arquivo Txt";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
