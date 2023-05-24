@@ -43,10 +43,7 @@ namespace DesafioWF
         {
             InitializeComponent();
 
-
-            string caminhoTxtCompleto = Path.GetFullPath("csv.txt");
-            string[] linhasCSV = File.ReadAllLines(caminhoTxtCompleto);
-
+            string[] linhasCSV = File.ReadAllLines("csv.txt");
 
             for (int i = 0; i < linhasCSV.Length; i++)
             {
